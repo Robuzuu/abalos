@@ -1,0 +1,15 @@
+
+* {
+  box-sizing: border;
+}
+
+.column {
+  float:left;
+  width:33.33%;
+  padding:10px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
